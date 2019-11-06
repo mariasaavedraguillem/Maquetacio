@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Henri Bergson</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style type="text/css">
+        :root{
+            --c:orange;
+            --altura: 70vh;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-size: 16px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        header {
+            width: 100%;
+            height: 70vh;
+            background: orange;
+            display: flex;
+        }
+        header div {
+            position: relative;
+            width: 50%;
+            height: 70vh;
+        }
+        header div img {
+            object-fit: cover;
+            object-position: top center;
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
+            position: absolute;
+            text-align: center;
+            top: 75vh;
+            width: 100%;
+            height: 70vh;
+        }
+        article {
+            font-family: 'Jomolhari' , serif;
+            width: 35.4em;
+            margin: auto;
+        }
+        article>p:first-child {
+            text-align: justify;
+            hyphens: auto;
+            line-height: 1.4em;
+            padding: 8vw 0;
+            color: var(--c);
+            column-count: 2;
+            column-gap: 2em;
+            column-rule: 1px solid var(--c);
+        }
+        article #cos>p:first-child::first-letter {
+            color: orange;
+            font-family: 'Georgia', sans-serif;
+            font-size: 5em;
+            float: left;
+            margin-right: 0.2em;
+            margin-top: -0.35em;
+            margin-bottom: -0.2em;
+            padding-bottom: 0.2em; 
+            padding-right: 0.2em;
+        }
+        article #cos{
+            text-align: justify;
+            hyphens: auto;
+            width: auto;
+            padding:  0 3em;
+        }
+        article #cos p {
+            padding: 0 0 1.5em 0;
+        }
+        
+        .cercle, 
+        .hexagon {
+            background: pink; 
+        }
+        
+        .cercle img, 
+        .hexagon img {
+            mix-blend-mode: hard-light;
+        }
+        
+        .cercle, 
+        .cercle img {
+            border-radius: 50%;
+        }
+        
+        .cercle {
+            max-width: 20em;
+            float: left;
+            margin-left: -8em;
+            shape-margin: 1em;
+            shape-outside: circle(50%)border-box;
+        }
+        
+        .hexagon, 
+        .hexagon img {
+            clip-path: polygon(47% 0, 100% 25%, 86% 72%, 19% 100%, 0 84%, 0 46%);
+        }
+        
+        .hexagon {
+            max-width: 20em;
+            float: right;
+            margin-right: -8em;
+            shape-margin: 1em;
+            shape-outside: polygon(47% 0, 100% 25%, 86% 72%, 19% 100%, 0 84%, 0 46%)border-box;
+        }
+        @media (max-width:600px){
+            body {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="bloc_esq">
+            <img src="img/81TgmiraExL.jpg">
+        </div>
+        <div class="bloc_dre">
+            <img src="img/DKyQZckXkAANZM6.jpg">
+        </div>
+        <h1> HENRI BERGSON, filósofo y escritor francés</h1>
+    </header>
+    <article>
+    <p>
+        Henri-Louis Bergson o Henri Bergson nació en París el 18 de octubre de 1859 y murió el 4 de enero de 1941. Fue un filósofo y escritor francés, ganador del Premio Nobel de Literatura en 1927.
+    </p>
+        <div id="cos"></div>
+    <p>
+        Hijo del músico polaco de origen judío Michał Bergson y de una mujer irlandesa, se educó en el Liceo Condorcet y la École Normale Supérieure, donde estudió filosofía. Después de una carrera docente como maestro en varias escuelas secundarias, Bergson fue designado para la École Normale Supérieure en 1898 y, desde 1900 hasta 1921, ostentó la cátedra de filosofía en el Colegio de Francia.
+        En 1914 fue elegido para la Academia Francesa; de 1921 a 1926 fue presidente de la Comisión de Cooperación Intelectual de la Sociedad de las Naciones. Poco antes de su muerte en 1941, Bergson expresó de varias maneras su oposición al régimen de Vichy.
+    </p>
+    <div class="cercle">
+        <img src="img/henri-bergson-2.jpg">
+    </div>
+    <p>
+        El espiritualismo y el vitalismo. A principios del siglo xx se produce una fuerte reacción ante el positivismo, con el fin de establecer el carácter irreductible del ser humano a la naturaleza. La estrategia consistía en encontrar y acreditar ciertos aspectos (valores estéticos y mentales, la libertad, el finalismo) que constituyen el «mundo del espíritu» y hallar caminos, que sean distintos a los de las ciencias naturales, hacia esos ámbitos. Estos hechos también son reales.
+        Fue parte de un gran fenómeno europeo. Los problemas que abordaron fueron: los derechos de la conciencia y los derechos inalienables de la persona. Problemas que eran percibidos como urgentes y a los que no respondían las ciencias particulares y que necesitaban de una respuesta racional.
+    </p>
+    <div class="hexagon">
+        <img src="img/henri-bergson.jpg">
+    </div>
+    <p>
+        Ensayo sobre los datos inmediatos de la conciencia: la conciencia es un tiempo que se distiende o dura: esto significaría la libertad y entonces resulta en una crítica a los planteamientos mecanicistas y cientistas (se observa el influjo en pensadores literarios como, por ejemplo, Antonio Machado).
+        Materia y memoria: considera dos tipos de memoria: la memoria técnica (o constructiva), que se basa en la repetición y hábitos motores. La memoria vital, que revive un acontecimiento pasado en su originalidad única. Constituye el fondo de nuestro ser (Bergson para estudiar a la memoria comienza por estudiar a los materiales no orgánicos que tienen capacidad de recuperar algunos aspectos prístinos tras haber sido alterados).
+        La risa: La risa es un gesto social que «castiga» la mecanización de la vida. Ocurre cuando un cuerpo no se mueve al ritmo de la vida (por ejemplo, cuando alguien tropieza), cuando una idea no se adapta a las nuevas situaciones (por ejemplo, cuando una afirmación se repite) o cuando se trata a alguien como cosa (por ejemplo, cuando mantean a Sancho Panza). Así, quien ríe es la sociedad, que al igual que la vida, su ley fundamental es la de nunca repetirse. «La idea de reglamentar administrativamente la vida se halla más extendida de lo que parece», escribe Bergson.
+        Introducción a la metafísica: qué entiende por filosofía.
+        La evolución creadora: la distinción entre lo orgánico y lo inorgánico. el repaso de las teorías evolutivas y su proposición. La conciencia se impone a la materia, la duración como trazo de unión.
+    </p>
+    </article>
+</body>
+</html>
